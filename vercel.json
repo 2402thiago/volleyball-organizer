@@ -5,5 +5,10 @@
       "source": "/api/:path*",
       "destination": "/api/:path*"
     }
-  ]
+  ],
+  "env": {
+    "POSTGRES_URL": "@postgres_url",
+    "ADMIN_USERNAME": "@ADMIN_USERNAME",
+    "ADMIN_PASSWORD": "@ADMIN_PASSWORD"
+  }
 }
