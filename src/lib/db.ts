@@ -90,16 +90,16 @@ async function initializeDatabase() {
     }
     
     // Check if schema file exists
-    if (!fs.existsSync(schemaPath)) {
+    if (!fs.existsSync(/*turbopackIgnore: true*/ schemaPath)) {
       console.error(`Schema file not found: ${schemaPath}`);
       // Fallback to the original db.sql for backward compatibility
       schemaPath = path.join(process.cwd(), 'lib', 'db.sql');
-      if (!fs.existsSync(schemaPath)) {
+      if (!fs.existsSync(/*turbopackIgnore: true*/ schemaPath)) {
         throw new Error('No schema file found');
       }
     }
     
-    const schema = fs.readFileSync(schemaPath, 'utf8');
+    const schema = fs.readFileSync(/*turbopackIgnore: true*/ schemaPath, 'utf8');
     
     // Split by statements and execute each
     const statements = schema
