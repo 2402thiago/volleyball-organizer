@@ -1,0 +1,13 @@
+import { jsx as _jsx } from "react/jsx-runtime";
+export const Card = React.forwardRef(({ className, children }, ref) => (_jsx("div", { ref: ref, className: `rounded-lg border bg-card text-card-foreground shadow-sm ${className}`, role: "region", children: _jsx("div", { className: "p-6", children: children }) })));
+Card.displayName = 'Card';
+export const CardHeader = React.forwardRef(({ className, children }, ref) => (_jsx("div", { ref: ref, className: `flex flex-row space-y-4 p-6 ${className}`, children: _jsx("div", { className: "grid", children: _jsx("h3", { className: "text-lg font-semibold leading-none tracking-tight", children: children }) }) })));
+CardHeader.displayName = 'CardHeader';
+export const CardContent = React.forwardRef(({ className, children }, ref) => (_jsx("div", { ref: ref, className: `p-6 pt-0 ${className}`, children: children })));
+CardContent.displayName = 'CardContent';
+export const CardFooter = React.forwardRef(({ className, children }, ref) => (_jsx("div", { ref: ref, className: `flex items-center p-6 pt-0 ${className}`, children: children })));
+CardFooter.displayName = 'CardFooter';
+export const CardTitle = React.forwardRef(({ className, children }, ref) => (_jsx("h3", { ref: ref, className: `text-lg font-semibold leading-none tracking-tight ${className}`, children: children })));
+CardTitle.displayName = 'CardTitle';
+export const CardDescription = React.forwardRef(({ className, children }, ref) => (_jsx("p", { ref: ref, className: `text-sm text-muted-foreground ${className}`, children: children })));
+CardDescription.displayName = 'CardDescription';

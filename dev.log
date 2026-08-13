@@ -1,0 +1,18 @@
+
+> volleyball-organizer@0.1.0 dev
+> next dev
+
+▲ Next.js 16.3.0 (Turbopack)
+- Local:         http://localhost:3000
+- Network:       http://10.255.255.254:3000
+- Environments: .env
+✓ Ready in 298ms
+✓ Running next.config.js took 16ms
+(node:57477) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///home/lith/volleyball-organizer/next.config.js is not specified and it doesn't parse as CommonJS.
+Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
+To eliminate this warning, add "type": "module" to /home/lith/volleyball-organizer/package.json.
+(Use `node --trace-warnings ...` to show where the warning was created)
+
+ GET /login 200 in 277ms (next.js: 149ms, application-code: 128ms)
+ POST /login 200 in 31ms (next.js: 3ms, application-code: 28ms)
+[?25h
