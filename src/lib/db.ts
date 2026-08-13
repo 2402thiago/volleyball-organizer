@@ -18,7 +18,7 @@ if (isProduction) {
   if (!connectionString) {
     throw new Error('POSTGRES_URL environment variable is required for production');
   }
-  db = new Pool({ connectionString });
+  db = Pool({ connectionString });
   console.log('Connected to Vercel Postgres database');
 } else {
   // Use SQLite for development
