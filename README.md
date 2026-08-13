@@ -190,3 +190,5 @@ Este projeto está licenciado sob a licença MIT - veja o arquivo [LICENSE](LICE
 Seu Nome - [seuemail@exemplo.com](mailto:seuemail@exemplo.com)
 
 Link do Projeto: [https://github.com/seuusuario/volleyball-organizer](https://github.com/seuusuario/volleyball-organizer)
+
+<!-- Last redeploy trigger: 2026-08-13 19:22:32 -->
