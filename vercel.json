@@ -16,8 +16,8 @@
     }
   ],
   "env": {
+    "POSTGRES_URL": "@postgres_url",
     "ADMIN_USERNAME": "@ADMIN_USERNAME",
-    "ADMIN_PASSWORD": "@ADMIN_PASSWORD",
-    "POSTGRES_URL": "@postgres_url"
+    "ADMIN_PASSWORD": "@ADMIN_PASSWORD"
   }
 }
