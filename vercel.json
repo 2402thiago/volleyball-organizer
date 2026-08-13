@@ -10,11 +10,14 @@
     }
   ],
   "rewrites": [
-    { "source": "/api/:path*", "destination": "/api/:path*" }
+    {
+      "source": "/api/:path*",
+      "destination": "/api/:path*"
+    }
   ],
   "env": {
     "POSTGRES_URL": "@postgres_url",
-    "ADMIN_USERNAME": "@admin_username",
-    "ADMIN_PASSWORD": "@admin_password"
+    "ADMIN_USERNAME": "@ADMIN_USERNAME",
+    "ADMIN_PASSWORD": "@ADMIN_PASSWORD"
   }
 }
